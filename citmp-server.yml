@@ -34,12 +34,10 @@ AutoStartResources:
     - paycheck
     - busdriver
     - police
+    - PoliceGarage
     - soljian_hu
-#    - interiors
     - banking
     - Garages
-#    - PoliceShop
-    - PoliceGarage
     - carhud
 #    - carte
     - coordsaver

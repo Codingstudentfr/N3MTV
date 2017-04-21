@@ -1,6 +1,7 @@
 require "resources/essentialmode/lib/MySQL"
 MySQL:open("127.0.0.1", "gta5_gamemode_essential", "root", "monpasse")
 
+
 function nameJob(id)
   local executed_query = MySQL:executeQuery("SELECT * FROM jobs WHERE job_id = '@namejob'", {['@namejob'] = id})
   local result = MySQL:getResults(executed_query, {'job_name'}, "job_id")
