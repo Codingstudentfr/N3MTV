@@ -22,7 +22,6 @@ AutoStartResources:
     - TruckerJob
     - msq-directions-hud
     - NeverWanted
-#    - speedo
     - stores
     - vehcontrol
     - es_admin
@@ -36,11 +35,13 @@ AutoStartResources:
     - busdriver
     - police
     - soljian_hu
+#    - interiors
     - banking
     - Garages
-    - PoliceShop
+#    - PoliceShop
     - PoliceGarage
     - carhud
+#    - carte
     - coordsaver
 
 # do change
@@ -62,7 +63,7 @@ DebugLog: true
 Announce: true
 
 # set to false to require players to be signed in to Steam
-DisableAuth: true
+DisableAuth: false
 
 # set to true to disable local script hook plugins
 DisableScriptHook: false
